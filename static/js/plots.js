@@ -8,23 +8,23 @@ let datos = []
 let datosFiltrados = []
 
 // Create a list to customize colors chart visualization
-let colores = ['#343a40', '#198754', '#0d6efd', '#e83e8c', '#dc3545', '#6c757d', '#ffc107', '#fd7e14', 
+let colors = ['#343a40', '#198754', '#0d6efd', '#e83e8c', '#dc3545', '#6c757d', '#ffc107', '#fd7e14', 
 '#20c997', '#6610f2', '#87ceeb'] 
 
 // This function plots a time series chart with energy generation historical data
 function timeSeriesChart(dates, totalEnergy){
     
     // Chart set up
-    var trace1 = {
+    var historical_trace = {
         type: "scatter",
         mode: "lines",
         x: dates,
         y: totalEnergy,
         line: { color: '#0d6efd' }
     }
-    var data1 = [trace1]
+    var historical_data = [historical_trace]
 
-    var layout1 = {
+    var historical_layout = {
         xaxis: {
             autorange: true,
             // Transforms date format to MM/DD/AAAA
@@ -82,22 +82,22 @@ function timeSeriesChart(dates, totalEnergy){
     }
     
     // Creates the new plot using data1 and layout1 settings
-    Plotly.newPlot('timeSeriesChart', data1, layout1)
+    Plotly.newPlot('timeSeriesChart', historical_data, historical_layout)
 }
 
 // This function creates a bar chart to visualize energy produced by year
 function barChart(generationByYear){
     // Chart set up
-    var trace2 = {
+    var bar_trace = {
         type: "bar",
         x: Object.keys(generationByYear),
         y: Object.values(generationByYear),
         marker: { color: '#0d6efd' }
     }
 
-    var data2 = [trace2];
+    var bar_data = [bar_trace];
 
-    var layout2 = { 
+    var bar_layout = { 
         yaxis: {
             title: 'Energy produced (MWh)'
         },
@@ -108,16 +108,16 @@ function barChart(generationByYear){
         margin: {"t": 10, "b": 20, "l": 50, "r": 0}
     }
 
-    // Creates the new plot using data2 and layout2 settings
-    Plotly.newPlot('barChart', data2, layout2)
+    // Creates the new plot using bar_data and bar_layout settings
+    Plotly.newPlot('barChart', bar_data, bar_layout)
 }
 
 // This function creates a pie chart to visualize energy produced by technology by year
 function pieChart(generationByTechnology){
 
-    // By default we'll consider sum of all energies produced from 2018-2023
+    // By default we'll consider sum of all energies produced from 2020-2023
     if (yearSelected === '2020-2023') {
-        // Get sum of energy produced by technology from 2018-2023
+        // Get sum of energy produced by technology from 2020-2023
         technologies = Object.keys(generationByTechnology['2020']);  // Take 2020 as a reference
         values = technologies.map(fuente => {
             return Object.keys(generationByTechnology).reduce((total, year) => total + 
@@ -129,36 +129,36 @@ function pieChart(generationByTechnology){
         values = Object.values(generationByTechnology[yearSelected]);
     }
 
-    var data3 = [{
+    var pie_data = [{
         type: "pie",
         values: values,
         labels: technologies,
         marker: {
-            colors: colores,  
+            colors: colors,  
         },
     }]
       
-    var layout3 = {
+    var pie_layout = {
         paper_bgcolor: '#e9ecef',
         height: 350,
         width: 500,
         margin: {"t": 20, "b": 30, "l": 10, "r": 10},
     }
       
-    Plotly.newPlot('pieChart', data3, layout3)
+    Plotly.newPlot('pieChart', pie_data, pie_layout)
 
 }
 
 // This function creates a pie chart to visualize energy produced by technology throughout the years
 function scatterChart(generationByTechnology){
     
-    // Lista de fuentes de generación
+    // List all energy sources
     const fuentes = Object.keys(generationByTechnology['2020']);  // Take 2020 as a reference
 
-    // Array para almacenar los traces
+    // Array to store traces
     const traces = [];
 
-    // Iterar sobre cada fuente y crear el trace correspondiente
+    // Iterate through each type of source and build the trace
     fuentes.forEach((fuente, index) => {
         const trace = {
             type: 'scatter',
@@ -166,7 +166,7 @@ function scatterChart(generationByTechnology){
             y: Object.keys(generationByTechnology).map(anio => generationByTechnology[anio][fuente]),
             name: fuente,
             line: {
-                color: colores[index % colores.length],  // Uso del índice y módulo para iterar por los colores
+                color: colors[index % colors.length], 
             },
         };
 
@@ -175,9 +175,9 @@ function scatterChart(generationByTechnology){
     });
 
     // Crear el objeto de datos
-    const data = traces;
+    const scatter_data = traces;
 
-    var layout4 = {
+    var scatter_layout = {
         plot_bgcolor: '#e9ecef',
         paper_bgcolor: '#e9ecef',
         height: 400,
@@ -187,22 +187,22 @@ function scatterChart(generationByTechnology){
     }
     
     // Creates the new plot using data and layout settings
-    Plotly.newPlot('scatterChart', data, layout4)
+    Plotly.newPlot('scatterChart', scatter_data, scatter_layout)
 }
 
 // This function prepares data for visualization
-function cargarDatos(){
+function loadData(){
 
     // 1. DATA PREPARATION FOR BAR VISUALIZATION
     // Groups energy produced by year
     const totalGenerationByYear = d3.rollup(
         datosFiltrados,
         values => d3.sum(values, d => (
-        d.Biomasa + d.Carboelectrica + d.CicloCombinado + d.CombustionInterna +
-        d.Eolica + d.Fotovoltaica + d.Geotermoelectrica + d.Hidroelectrica +
-        d.TurboGas + d.Nucleoelectrica + d.TermicaConvencional
+        d.Biomass + d.Coal + d.CombinedCycle + d.InternalCombustion +
+        d.Wind + d.Photovoltaics + d.Geothermal + d.Hydro + d.Gas + 
+        d.Nuclear + d.Thermal
         )),
-        d => d.Dia.getFullYear()
+        d => d.Date.getFullYear()
     );
 
     // Transform to an object type
@@ -213,19 +213,19 @@ function cargarDatos(){
     const totalGenerationByTechnology = d3.rollup(
         datosFiltrados,
         (values) => ({
-            Biomasa: d3.sum(values, d => d.Biomasa),
-            Carboelectrica: d3.sum(values, d => d.Carboelectrica),
-            CicloCombinado: d3.sum(values, d => d.CicloCombinado),
-            CombustionInterna: d3.sum(values, d => d.CombustionInterna),
-            Eolica: d3.sum(values, d => d.Eolica),
-            Fotovoltaica: d3.sum(values, d => d.Fotovoltaica),
-            Geotermoelectrica: d3.sum(values, d => d.Geotermoelectrica),
-            Hidroelectrica: d3.sum(values, d => d.Hidroelectrica),
-            TurboGas: d3.sum(values, d => d.TurboGas),
-            Nucleoelectrica: d3.sum(values, d => d.Nucleoelectrica),
-            TermicaConvencional: d3.sum(values, d => d.TermicaConvencional)
+            Biomass: d3.sum(values, d => d.Biomass),
+            Coal: d3.sum(values, d => d.Coal),
+            CombinedCycle: d3.sum(values, d => d.CombinedCycle),
+            InternalCombustion: d3.sum(values, d => d.InternalCombustion),
+            Wind: d3.sum(values, d => d.Wind),
+            Photovoltaics: d3.sum(values, d => d.Photovoltaics),
+            Geothermal: d3.sum(values, d => d.Geothermal),
+            Hydro: d3.sum(values, d => d.Hydro),
+            Gas: d3.sum(values, d => d.Gas),
+            Nuclear: d3.sum(values, d => d.Nuclear),
+            Thermal: d3.sum(values, d => d.Thermal)
         }),
-        d => d.Dia.getFullYear()
+        d => d.Date.getFullYear()
     );
 
     // Transform to an object type
@@ -236,11 +236,11 @@ function cargarDatos(){
     const generationPerHour = d3.rollup(
         datosFiltrados,
         values => d3.sum(values, d => (
-            d.Biomasa + d.Carboelectrica + d.CicloCombinado + d.CombustionInterna +
-            d.Eolica + d.Fotovoltaica + d.Geotermoelectrica + d.Hidroelectrica +
-            d.TurboGas + d.Nucleoelectrica + d.TermicaConvencional
+            d.Biomass + d.Coal + d.CombinedCycle + d.InternalCombustion +
+            d.Wind + d.Photovoltaics + d.Geothermal + d.Hydro + d.Gas + 
+            d.Nuclear + d.Thermal
             )),
-        d => d.Fecha
+        d => d.Date_time
     );
 
     // Arrays to store dates and total energy values
@@ -262,17 +262,17 @@ function cargarDatos(){
 }
 
 // This function filters data according to user selection
-function actualizarDatos(){
+function updateData(){
     
     yearSelected = document.getElementById('userSelection').value
     
     if (yearSelected === '2020-2023') {
         datosFiltrados = datos;
     } else {
-        datosFiltrados = datos.filter((d) => d.Dia.getFullYear() == yearSelected);
+        datosFiltrados = datos.filter((d) => d.Date.getFullYear() == yearSelected);
     }
 
-    cargarDatos()
+    loadData()
 }
 
 // Read csv file using D3
@@ -284,26 +284,26 @@ d3.csv(rawDataURL).then((data) => {
     // Transform date column to a new date object. Parse technologies info to float type
     datos.forEach((d) => {
 
-        const [dia, mes, año] = d.Dia.split('/')
-        const fechaFormatoCorrecto = `${mes}/${dia}/${año}`
-        d.Fecha = new Date(año, mes - 1, dia, d.Hora, 0, 0);
+        const [day, month, year] = d.Date.split('/')
+        const fechaFormatoCorrecto = `${month}/${day}/${year}`
+        d.Date_time = new Date(year, month - 1, day, d.Time, 0, 0);
 
-        d.Dia = new Date(fechaFormatoCorrecto)
-        d.Hora = parseFloat(d.Hora)
-        d.Biomasa = parseFloat(d.Biomasa)
-        d.Carboelectrica = parseFloat(d.Carboelectrica)
-        d.CicloCombinado = parseFloat(d.CicloCombinado)
-        d.CombustionInterna = parseFloat(d.CombustionInterna)
-        d.Eolica = parseFloat(d.Eolica)
-        d.Fotovoltaica = parseFloat(d.Fotovoltaica)
-        d.Geotermoelectrica = parseFloat(d.Geotermoelectrica)
-        d.Hidroelectrica = parseFloat(d.Hidroelectrica)
-        d.TurboGas = parseFloat(d.TurboGas)
-        d.Nucleoelectrica = parseFloat(d.Nucleoelectrica)
-        d.TermicaConvencional = parseFloat(d.TermicaConvencional)
+        d.Date = new Date(fechaFormatoCorrecto)
+        d.Time = parseFloat(d.Time)
+        d.Biomass = parseFloat(d.Biomass)
+        d.Coal = parseFloat(d.Coal)
+        d.CombinedCycle = parseFloat(d.CombinedCycle)
+        d.InternalCombustion = parseFloat(d.InternalCombustion)
+        d.Wind = parseFloat(d.Wind)
+        d.Photovoltaics = parseFloat(d.Photovoltaics)
+        d.Geothermal = parseFloat(d.Geothermal)
+        d.Hydro = parseFloat(d.Hydro)
+        d.Gas = parseFloat(d.Gas)
+        d.Nuclear = parseFloat(d.Nuclear)
+        d.Thermal = parseFloat(d.Thermal)
 
     })
     
     //Initialize plots visualizations
-    actualizarDatos()
+    updateData()
 });

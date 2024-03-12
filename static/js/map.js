@@ -30,31 +30,31 @@ function markerSize(capacity) {
 
 // Function to get color based on technology
 function getColor(tecnologia) {
-  return tecnologia == 'Ciclo Combinado' ? '#FF4500' :
-    tecnologia == 'Hidroelectrica' ? '#1E90FF' :
-    tecnologia == 'Combustion interna' ? '#FF69B4' :
-    tecnologia == 'Eolico' ? '#C0C0C0' :
-    tecnologia == 'Fotovoltaica' ? '#fd7e14' :
-    tecnologia == 'Geotermoelectrica' ? '#9E9D24' :
-    tecnologia == 'Nucleoelectrica' ? '#8B0000' :
-    tecnologia == 'Termoelectrica' ? '#32CD32' :
-    tecnologia == 'Turbogas' ? '#ffc107' :
-    tecnologia == 'Carboelectrica' ? '#5E35B1' :
+  return tecnologia == 'Combined Cycle' ? '#FF4500' :
+    tecnologia == 'Hydro' ? '#1E90FF' :
+    tecnologia == 'Internal Combustion' ? '#FF69B4' :
+    tecnologia == 'Wind' ? '#C0C0C0' :
+    tecnologia == 'Photovoltaics' ? '#fd7e14' :
+    tecnologia == 'Geothermal' ? '#9E9D24' :
+    tecnologia == 'Nuclear' ? '#8B0000' :
+    tecnologia == 'Thermal' ? '#32CD32' :
+    tecnologia == 'Gas' ? '#ffc107' :
+    tecnologia == 'Coal' ? '#5E35B1' :
     '#ffffff'; 
 }
 
 // Variable to track the state of filters
 let filterActive = {
-  'Ciclo Combinado': true,
-  'Hidroelectrica': true,
-  'Combustion interna': true,
-  'Eolico': true,
-  'Fotovoltaica': true,
-  'Geotermoelectrica': true,
-  'Nucleoelectrica': true,
-  'Termoelectrica': true,
-  'Turbogas': true,
-  'Carboelectrica': true
+  'Combined Cycle': true,
+  'Hydro': true,
+  'Internal Combustion': true,
+  'Wind': true,
+  'Photovoltaics': true,
+  'Geothermal': true,
+  'Nuclear': true,
+  'Thermal': true,
+  'Gas': true,
+  'Coal': true
 };
 
 // Function to update the legend style based on filter state
@@ -125,8 +125,8 @@ d3.csv('../Datasets/centrales_generacion_mexico.csv').then((plants) => {
   var legend = L.control({position: 'bottomright'});
   legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
-        tecnologias = ['Ciclo Combinado', 'Hidroelectrica', 'Termoelectrica', 'Turbogas', 'Carboelectrica', 
-        'Combustion interna', 'Eolico', 'Fotovoltaica', 'Geotermoelectrica', 'Nucleoelectrica'];
+        tecnologias = ['Combined Cycle', 'Hydro', 'Thermal', 'Gas', 'Coal', 
+        'Internal Combustion', 'Wind', 'Photovoltaics', 'Geothermal', 'Nuclear'];
 
     // Loop to generate labels with color squares for each technology
     tecnologias.forEach(tecnologia => {

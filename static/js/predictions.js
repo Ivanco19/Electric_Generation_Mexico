@@ -9,6 +9,7 @@ function timeSeriesPredictions(dates, totalReal, totalPrediction){
         mode: "lines",
         x: dates,
         y: totalReal,
+        name: 'Real Values',
         line: { color: '#0d6efd' }
     }
 
@@ -18,6 +19,7 @@ function timeSeriesPredictions(dates, totalReal, totalPrediction){
         mode: "lines",
         x: dates,
         y: totalPrediction,
+        name: 'Predictions',
         line: { color: '#dc3545' }
     }
     var data = [prediction_trace, real_trace]
@@ -84,17 +86,17 @@ d3.csv(rawDataURL).then((data) => {
     // Transform date column to a new date object. Parse technologies info to float type
     data.forEach((d) => {
 
-        const [dia, mes, año] = d.Fecha.split('/')
-        d.Fecha = new Date(año, mes - 1, dia, d.Hora, 0, 0);
-        d.Real = parseFloat(d.Real)
+        const [day, month, year] = d.Date.split('/')
+        d.Date = new Date(year, month - 1, day, d.Time, 0, 0);
+        d.Real = parseFloat(d.Real_Value)
         d.Prediction = parseFloat(d.Prediction)
     })
     
     // Transform values to arrays
-    var datesArray = data.map(d => d.Fecha);
-    var realValuesArray = data.map(d => d.Real);
-    var predictionValuesArray = data.map(d => d.Prediction);
+    var dates = data.map(d => d.Date);
+    var realValues = data.map(d => d.Real);
+    var predictionValues = data.map(d => d.Prediction);
 
-    // Llamar la función con los datos necesarios
-    timeSeriesPredictions(datesArray, realValuesArray, predictionValuesArray);
+    // Build time series plot
+    timeSeriesPredictions(dates, realValues, predictionValues);
 });

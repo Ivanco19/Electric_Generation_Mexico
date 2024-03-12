@@ -1,183 +1,183 @@
 Empresa,Nombre,Capacidad,Entidad,Tecnologia,Latitud,Longitud,Fecha de operacion,Combustible,Generacion
-CFE,CT Carbon II,1400,Coahuila,Carboelectrica,28.4682379,-100.7029,1993,Carbon,4
-CFE,CT Jose Lopez Portillo (Rio Escondido),1285,Coahuila,Carboelectrica,28.4844162,-100.692266,1982,Carbon,4
-CFE,CT Plutarco Elias Calles (Petacalco),2778.4,Guerrero,Carboelectrica,17.981411,-102.1229,1993,Carbon,2
-CFE,CC Presidente Jurez (Rosarito),743,Baja California,Ciclo Combinado,32.3684945,-117.084442,1963,Gas Natural,3
-PI,Mexicali,489,Baja California,Ciclo Combinado,32.6009142,-115.659276,2003,Gas Natural,5
-PI,Campeche,252.4,Campeche,Ciclo Combinado,17.9406683,-91.73477,2003,Gas Natural,5
-CFE,CC Chihuahua II (El Encino),619.4,Chihuahua,Ciclo Combinado,28.4470027,-105.922675,2001,Gas Natural,4
-CFE,CC Samalayuca II,522,Chihuahua,Ciclo Combinado,31.3302947,-106.486312,1998,Gas Natural,4
-PI,Norte II,433,Chihuahua,Ciclo Combinado,28.4402827,-105.918964,2013,Gas Natural,5
-PI,Chihuahua III,259,Chihuahua,Ciclo Combinado,31.3331032,-106.490956,2003,Gas Natural,5
-PI,Saltillo,247.5,Coahuila,Ciclo Combinado,25.59471,-100.90652,2001,Gas Natural,5
-CFE,CC Manzanillo I (Gral Manuel alvarez Moreno),1454,Colima,Ciclo Combinado,19.0257806,-104.319422,2013,Gas Natural,2
-CFE,CC Gomez Palacio,240,Durango,Ciclo Combinado,25.5944954,-103.47463,1976,Gas Natural,4
-PI,La Laguna II,498,Durango,Ciclo Combinado,25.6020413,-103.474385,2005,Gas Natural,5
-CFE,Norte Durango (La Trinidad),450,Durango,Ciclo Combinado,24.229667,-104.482172,2010,Gas Natural,5
-CFE,CC Valle de Mexico (Paquete II),549,Estado de Mexico,Ciclo Combinado,19.6167593,-98.976099,1963,Gas Natural,1
-PI,CC Bajio,495,Guanajuato,Ciclo Combinado,21.24513,-100.610426,,Gas Natural,5
-CFE,CC Francisco Perez Rios (Tula),489,Hidalgo,Ciclo Combinado,20.0596515,-99.277541,1975,Gas Natural,1
-CFE,CC Huinala I,378,Nuevo Leon,Ciclo Combinado,25.7201712,-100.10166,1981,Gas Natural,4
-CFE,CC Huinala II,471.2,Nuevo Leon,Ciclo Combinado,25.719078,-100.102553,1981,Gas Natural,4
-PI,Monterrey III (Dulces Nombres),449,Nuevo Leon,Ciclo Combinado,25.7177018,-100.093091,2002,Gas Natural,5
-CFE,CC San Lorenzo Potencia,382.1,Puebla,Ciclo Combinado,19.1203463,-98.243689,2009,Gas Natural,1
-CFE,CC El Sauz,591,Queretaro,Ciclo Combinado,20.4579153,-100.118472,1981,Gas Natural,1
-PI,Iberdrola Energia Tamazunchale,1135,San Luis Potosí,Ciclo Combinado,21.311286,-98.759108,2007,Gas Natural,5
-CFE,CC Agua Prieta II,409,Sonora,Ciclo Combinado,31.2636905,-109.592661,2016,Gas Natural,3
-PI,CC Hermosillo,250,Sonora,Ciclo Combinado,29.0405563,-110.836059,1998,Gas Natural,3
-PI,Naco Nogales,258,Sonora,Ciclo Combinado,31.2246505,-109.609806,2003,Gas Natural,5
-PI,Altamira II,495,Tamaulipas,Ciclo Combinado,22.497778,-97.901667,2002,Gas Natural,5
-PI,Altamira III y IV,1036,Tamaulipas,Ciclo Combinado,22.4955237,-97.902453,2003,Gas Natural,5
-PI,Altamira V,1121,Tamaulipas,Ciclo Combinado,22.4973288,-97.906104,2007,Gas Natural,5
-CFE,CC Pdte. Emilio Portes Gil (Rio Bravo),211,Tamaulipas,Ciclo Combinado,25.9799543,-98.06616,1982,Gas Natural,4
-PI,Central Rio Bravo (Anahuac),495,Tamaulipas,Ciclo Combinado,25.7990558,-97.783729,2002,Gas Natural,5
-PI,Central Rio Bravo III,495,Tamaulipas,Ciclo Combinado,25.799288,-97.782358,2004,Gas Natural,5
-PI,Central Rio Bravo IV,500,Tamaulipas,Ciclo Combinado,25.797699,-97.782726,2005,Gas Natural,5
-CFE,CC Dos Bocas,452,Veracruz,Ciclo Combinado,19.0831283,-96.146498,1975,Gas Natural,6
-PI,Central Tuxpan II,495,Veracruz,Ciclo Combinado,20.8425309,-97.245424,2001,Gas Natural,5
-PI,Central Tuxpan III y IV,983,Veracruz,Ciclo Combinado,20.8383508,-97.254321,2003,Gas Natural,5
-PI,Central Tuxpan V,495,Veracruz,Ciclo Combinado,20.8453699,-97.248723,2006,Gas Natural,5
-PI,AES Merida III,484,Yucatán,Ciclo Combinado,20.9337395,-89.69801,2000,Gas Natural,5
-PI,Compañia de Generacion Valladolid,525,Yucatán,Ciclo Combinado,20.6921858,-88.265954,2006,Gas Natural,5
-CFE,CT Felipe Carrillo Puerto (Valladolid),220,Yucatán,Ciclo Combinado,20.6985305,-88.267012,1992,Gas Natural,6
-CFE,CCI Baja California Sur I,26,Baja California Sur,Combustion interna,24.1978262,-110.257911,2005,Diesel,3
-CFE,CCI Gral. Agustin Olachea Aviles (Pto San Carlos),104.1,Baja California Sur,Combustion interna,24.8152208,-112.093062,1991,Diesel,3
-CFE,CCI Guerrero Negro,22,Baja California Sur,Combustion interna,27.6417326,-113.415308,2004,Diesel,3
-CFE,CCI Santa Rosalia,5,Baja California Sur,Combustion interna,27.3530047,-112.271038,1974,Diesel,3
-CFE,CCI Hol-Box,3.2,Quintana Roo,Combustion interna,21.5201389,-87.37642,1985,Diesel,6
-CFE,La Venta,1,Oaxaca,Eolico,16.5801421,-94.816653,1994,Viento,6
-PI,La Venta III,102.9,Oaxaca,Eolico,16.5761308,-94.736216,2012,Viento,5
-PI,Oaxaca I,102,Oaxaca,Eolico,16.5681348,-94.72616,2012,Viento,5
-PI,Oaxaca II,102,Oaxaca,Eolico,16.5709119,-94.788961,2012,Viento,5
-PI,Oaxaca III,102,Oaxaca,Eolico,16.5473236,-94.829665,2012,Viento,5
-PI,Oaxaca IV,102,Oaxaca,Eolico,16.5709119,-94.788961,2012,Viento,5
-PI,Sureste I (La Mata),102,Oaxaca,Eolico,16.6136801,-95.005156,2016,,5
-CFE,Yuumil ik,1.5,Quintana Roo,Eolico,20.9763952,-86.862365,2011,Viento,6
-CFE,Cerro Prieto,5,Baja California,Fotovoltaica,32.4008961,-115.237533,2012,Sol,3
-CFE,Santa Rosalia,1,Baja California Sur,Fotovoltaica,27.3637056,-112.916468,2012,Sol,3
-CFE,CG Cerro Prieto,570,Baja California,Geotermoelectrica,32.4136095,-115.245095,1973,Calor Subterraneo,3
-CFE,CG Tres Virgenes,10,Baja California Sur,Geotermoelectrica,27.5061057,-112.55991,2001,Calor Subterraneo,3
-CFE,CG Los Azufres,225,Michoacan,Geotermoelectrica,19.7915879,-100.662277,1982,Calor Subterraneo,2
-CFE,CG Humeros,69,Puebla,Geotermoelectrica,19.6726316,-97.455836,1991,Calor Subterraneo,6
-CFE,Bombana,5.2,Chiapas,Hidroelectrica,17.011192,-93.028972,1961,Agua,6
-CFE,Central angel Albino Corzo (Peñitas),420,Chiapas,Hidroelectrica,17.4542911,-93.464399,1987,Agua,6
-CFE,Central Belisario Dominguez (Angostura),900,Chiapas,Hidroelectrica,16.404444,-92.775,1976,Agua,6
-CFE,Central Malpaso,1080,Chiapas,Hidroelectrica,17.1805892,-93.597029,1969,Agua,6
-CFE,Central Manuel Moreno Torres (Chicoasen),2400,Chiapas,Hidroelectrica,16.9448343,-93.097849,1981,Agua,6
-CFE,Jose Cecilio del Valle,21,Chiapas,Hidroelectrica,15.0232568,-92.22769,1967,Agua,6
-CFE,Schpoina,2.2,Chiapas,Hidroelectrica,16.3144717,-92.427925,1953,Agua,6
-CFE,Boquilla,25,Chihuahua,Hidroelectrica,27.544722,-105.414167,1916,Agua,3
-CFE,Colina,3,Chihuahua,Hidroelectrica,27.57507,-105.38248,1996,Agua,3
-CFE,La Amistad,66,Coahuila,Hidroelectrica,29.450278,-101.057778,1987,Agua,4
-CFE,Santa Barbara (S.H. Miguel Aleman),22.52,Estado de Mexico,Hidroelectrica,19.1978001,-100.282289,1955,Agua,1
-CFE,Tingambato (S.H. Miguel Aleman),42,Estado de Mexico,Hidroelectrica,19.081745,-100.406155,1955,Agua,1
-PI,"Generadora Fenix, S. A. P. I. de C.V. Alameda",7,Estado de México,Hidroelectrica,18.845156,-99.461384,1923,Agua,
-CFE,Ambrosio Figueroa (La Venta),30,Guerrero,Hidroelectrica,17.1173009,-99.56272,1965,Agua,1
-CFE,Central Carlos Ramirez Ulloa (El Caracol),600,Guerrero,Hidroelectrica,17.953029,-99.99205,1986,Agua,1
-CFE,Colotilpa,8,Guerrero,Hidroelectrica,17.4092418,-99.162252,1910,Agua,1
-CFE,Central Fernando Hiriart Balderrama (Zimapan),292,Hidalgo,Hidroelectrica,20.8480551,-99.459806,1996,Agua,1
-CFE,Central La Yesca,750,Jalisco,Hidroelectrica,21.1922051,-104.086741,2014,Agua,2
-CFE,Colimilla,51.2,Jalisco,Hidroelectrica,20.7009461,-103.242194,1950,Agua,2
-CFE,Luis M. Rojas (intermedia),5.3,Jalisco,Hidroelectrica,20.7056245,-103.265393,1963,Agua,2
-CFE,Gral. Manuel M. Dieguez (Santa Rosa),70,Jalisco,Hidroelectrica,20.9080017,-103.706203,1964,Agua,2
-CFE,Puente Grande,9,Jalisco,Hidroelectrica,20.5774976,-103.145746,1945,Agua,2
-CFE,Valentin Gomez Farias (Agua Prieta),240,Jalisco,Hidroelectrica,20.7859635,-103.325056,1993,Agua,2
-CFE,Botello,18,Michoacan,Hidroelectrica,19.9798124,-101.734582,1910,Agua,2
-CFE,Central El Infiernillo,1200,Michoacan,Hidroelectrica,18.2812246,-101.901375,1965,Agua,1
-CFE,Central La Villita,320,Michoacan,Hidroelectrica,18.0456955,-102.182454,1973,Agua,1
-CFE,Cobano,60,Michoacan,Hidroelectrica,19.1662119,-102.011732,1955,Agua,2
-CFE,Cupatizio,80,Michoacan,Hidroelectrica,19.2687545,-102.079901,1962,Agua,2
-CFE,Platanal,12.6,Michoacan,Hidroelectrica,19.932471,-102.254832,1954,Agua,2
-CFE,San Pedro Poruas,2.6,Michoacan,Hidroelectrica,19.4142111,-101.248548,1958,Agua,2
-CFE,Tirio,1.1,Michoacan,Hidroelectrica,19.53015,-101.2531,2005,Agua,2
-CFE,Zumpimito,8.4,Michoacan,Hidroelectrica,19.3602644,-102.069454,1944,Agua,2
-PI,"Generadora Fenix, S. A. P. I. de C.V. Lerma ",73.5,Michoacán,Hidroelectrica,19.9823014,-100.252506,1930,Agua,
-CFE,Central Aguamilpa Solidaridad,960,Nayarit,Hidroelectrica,21.8399,-104.802905,1994,Agua,2
-CFE,Central Leonardo Rodriguez Alcaine (El Cajon),750,Nayarit,Hidroelectrica,21.4293515,-104.454058,2007,Agua,2
-CFE,Jumatan,2.2,Nayarit,Hidroelectrica,21.6468876,-105.033051,1941,Agua,2
-CFE,Central Temascal y Ampliacion Temascal,354,Oaxaca,Hidroelectrica,18.2335897,-96.409422,1959,Agua,6
-CFE,Tamazulapan,2.5,Oaxaca,Hidroelectrica,17.692783,-97.61968,1962,Agua,6
-CFE,Central Mazatepec,220,Puebla,Hidroelectrica,20.0144626,-97.40644,1962,Agua,6
-CFE,Central Portezuelos I y II ,4.1,Puebla,Hidroelectrica,18.9192977,-98.373167,1964,Agua,1
-PI,"Generadora Fenix, S. A. P. I. de C.V. Necaxa",16,Puebla,Hidroelectrica,20.2166201,-98.002804,1905,Agua,
-PI,"Generadora Fenix, S. A. P. I. de C.V. Patla",15,Puebla,Hidroelectrica,20.2392117,-97.891506,1954,Agua,
-PI,"Generadora Fenix, S. A. P. I. de C.V. Tepexic",15,Puebla,Hidroelectrica,20.21005,-97.948345,1923,Agua,
-CFE,Camilo Arriaga (El Salto),18,San Luis Potosi,Hidroelectrica,22.588129,-99.38359,1966,Agua,6
-CFE,Electroquimica,1.4,San Luis Potosí,Hidroelectrica,22.588129,-99.35,1952,Agua,6
-CFE,Bacurato,92,Sinaloa,Hidroelectrica,25.855717,-107.910361,1987,Agua,3
-CFE,Central 27 de Septiembre (El Fuerte),59.4,Sinaloa,Hidroelectrica,26.5072953,-108.575108,1960,Agua,3
-CFE,Central Luis Donaldo Colosio (Huites),422,Sinaloa,Hidroelectrica,26.8437651,-108.367947,1996,Agua,3
-CFE,Humaya,90,Sinaloa,Hidroelectrica,25.099861,-107.387781,1976,Agua,3
-CFE,Prof. Raul J. Marsal Cordova (El comedero),100,Sinaloa,Hidroelectrica,24.5692557,-106.80966,1991,Agua,3
-CFE,Gral. Salvador Alvarado (Sanalona),14,Sinaloa,Hidroelectrica,24.8156421,-107.149413,1963,Agua,3
-CFE,Central Pdte Plutarco Elias Calles (El Novillo),135,Sonora,Hidroelectrica,28.9766171,-109.64003,1964,Agua,3
-CFE,Mocuzari,9.6,Sonora,Hidroelectrica,27.225131,-109.106769,1959,Agua,3
-CFE,Oviachic,19.2,Sonora,Hidroelectrica,27.821343,-109.897978,1957,Agua,3
-CFE,Falcon,31.5,Tamaulipas,Hidroelectrica,26.558369,-99.1694,1954,Agua,4
-CFE,Chilapan,26,Veracruz,Hidroelectrica,18.4712477,-95.15763,1960,Agua,6
-CFE,Encanto,10,Veracruz,Hidroelectrica,19.9837823,-97.175802,1951,Agua,6
-CFE,Ixtaczoquitlan,1.6,Veracruz,Hidroelectrica,18.8422661,-97.062678,1905,Agua,6
-CFE,Minas,15,Veracruz,Hidroelectrica,19.6863469,-97.147146,1951,Agua,6
-CFE,Texolo,1.6,Veracruz,Hidroelectrica,19.4019312,-96.992439,1951,Agua,6
-CFE,Tuxpango,36,Veracruz,Hidroelectrica,18.8365213,-97.033879,1914,Agua,6
-CFE,CN Laguna Verde,1608,Veracruz,Nucleoelectrica,19.7207374,-96.406982,1990,Uranio,6
-CFE,CT Presidente Juarez (Rosarito),320,Baja California,Termoelectrica,32.3686749,-117.068382,1964,Gas Natural,3
-CFE,CT Punta Prieta II,113,Baja California Sur,Termoelectrica,24.223326,-110.309295,1977,Combustoleo y Diesel,3
-CFE,CT Lerma,112.5,Campeche,Termoelectrica,19.7947765,-90.612771,1976,Combustoleo,6
-CFE,CT Gral. Francisco Villa,300,Chihuahua,Termoelectrica,28.1679986,-105.442412,1980,Combustoleo,4
-CFE,CT Benito Juarez (Samalayuca),316,Chihuahua,Termoelectrica,31.331805,-106.482595,1984,Gas Natural,4
-CFE,CC Manzanillo II (Gral Manuel alvarez Moreno),1300,Colima,Termoelectrica,19.0227687,-104.319629,1982,Combustoleo,2
-CFE,CT Guadalupe Victoria (Lerdo),320,Durango,Termoelectrica,25.4968008,-103.568932,1991,Combustoleo,4
-CFE,CT Valle de Mexico (Paquete I),450,Estado de Mexico,Termoelectrica,19.6167523,-98.977501,1963,Gas Natural,1
-CFE,CT Salamanca,550,Guanajuato,Termoelectrica,20.5691282,-101.170968,1977,Gas Natural,1
-CFE,CT Francisco Perez Rios (Tula),1606,Hidalgo,Termoelectrica,20.0613245,-99.276715,1975,Gas Natural,1
-CFE,CT Villa de Reyes,700,San Luis Potosi,Termoelectrica,21.8319464,-100.934019,1986,Combustoleo,4
-CFE,CT Jose Aceves Pozos (Mazatlan II),616,Sinaloa,Termoelectrica,23.190984,-106.353251,1976,Gas Natural,3
-CFE,CT Juan de Dios Batiz Paredes (Topolobampo),320,Sinaloa,Termoelectrica,25.6091019,-109.050545,1995,Combustoleo,3
-CFE,CT Carlos Rodriguez Rivero (Guaymas II),484,Sonora,Termoelectrica,27.9367643,-110.865883,1973,Combustoleo,3
-CFE,CT Puerto Libertad,632,Sonora,Termoelectrica,29.9090145,-112.695408,1985,Gas Natural,3
-CFE,CT Pdte. Emilio Portes Gil (Rio Bravo),300,Tamaulipas,Termoelectrica,25.980709,-98.063196,1982,Gas Natural,4
-CFE,CT Altamira,500,Tamaulipas,Termoelectrica,22.4346506,-98.007405,1976,Combustoleo,4
-CFE,CT Poza Rica,230,Veracruz,Termoelectrica,20.5251183,-97.491936,1963,Gas Natural,6
-CFE,CT Presidente Adolfo Lopez Mateos (Tuxpan),2100,Veracruz,Termoelectrica,21.0177873,-97.334111,1991,Combustoleo,6
-CFE,CT Felipe Carrillo Puerto (Valladolid),75,Yucatan,Termoelectrica,20.698569,-88.26383,1992,"Combustoleo, Diesel",6
-CFE,CT Merida II,168,Yucatan,Termoelectrica,20.9271143,-89.686321,1981,Combustoleo,6
-CFE,CTG Cipres,27.43,Baja California,Turbogas,31.7757639,-116.586815,1981,Diesel,3
-CFE,CTG Mexicali,62,Baja California,Turbogas,32.6058947,-115.461108,1974,Gas Natural,3
-CFE,CTG Tijuana,345,Baja California,Turbogas,32.3719905,-117.067377,1982,Gas Natural,3
-CFE,CTG Guerrero Negro II,14,Baja California Sur,Turbogas,27.64171,-113.4132409,2004,,3
-CFE,CTG Ciudad Constitucion,33,Baja California Sur,Turbogas,25.0214571,-111.666895,1984,Diesel,3
-CFE,CTG Los Cabos,85,Baja California Sur,Turbogas,22.9727611,-110.021155,1976,Diesel,3
-CFE,Ciudad del Carmen,47,Campeche,Turbogas,18.6577482,-91.794985,1992,Diesel,6
-CFE,CTG Parque (TG Juarez),59,Chihuahua,Turbogas,31.7024747,-106.403816,1977,Diesel,4
-CFE,CTG Aragon,32,Ciudad de Mexico,Turbogas,19.4611322,-99.09807,,,1
-CFE,CTG Coapa,32,Ciudad de Mexico,Turbogas,19.2706124,-99.127009,,,1
-CFE,CTG Iztapalapa,32,Ciudad de Mexico,Turbogas,19.33373,-99.07417,,,1
-CFE,CTG Magdalena,32,Ciudad de Mexico,Turbogas,19.3813891,-99.094321,,,1
-CFE,CTG Santa Cruz,32,Ciudad de Mexico,Turbogas,19.3662755,-99.059296,,,1
-CFE,CTG Vallejo,32,Ciudad de Mexico,Turbogas,19.5162157,-99.174162,,,1
-CFE,CTG Nonoalco,106,Ciudad de Mexico,Turbogas,19.4504932,-99.149691,1974,Gas Natural,1
-CFE,CTG Chavez,28,Coahuila,Turbogas,25.7724818,-103.284971,1971,Gas,4
-CFE,CTG Monclova,48,Coahuila,Turbogas,26.8719811,-101.426273,,,4
-CFE,CTG La Laguna,56,Durango,Turbogas,25.551157,-103.471633,1974,Gas Natural,4
-CFE,CTG Coyotepec,64,Estado de Mexico,Turbogas,19.7614631,-99.217916,2007,Gas Natural,1
-CFE,CTG Atenco,32,Estado de Mexico,Turbogas,19.2795504,-99.570673,,,1
-CFE,CTG Cuautitlan,32,Estado de Mexico,Turbogas,19.6817861,-99.186784,,,1
-CFE,CTG Ecatepec,32,Estado de Mexico,Turbogas,19.6109486,-99.058246,,,1
-CFE,CTG Remedios,32,Estado de Mexico,Turbogas,19.4872714,-99.25154,,,1
-CFE,CTG Victoria,32,Estado de Mexico,Turbogas,19.6363847,-99.189977,,,1
-CFE,CTG Villa de las Flores,32,Estado de Mexico,Turbogas,19.6722058,-99.078205,,,1
-CFE,CC Salamanca,393,Guanajuato,Turbogas,20.5789785,-101.165403,2013,Gas Natural,1
-CFE,CTG Fundidora,12,Nuevo Leon,Turbogas,25.6821307,-100.27797,1971,Gas Natural,4
-CFE,CTG Huinala,150,Nuevo Leon,Turbogas,25.721856,-100.102751,1981,Gas Natural,4
-CFE,CTG Leona,24,Nuevo Leon,Turbogas,25.6688544,-100.415388,1972,Gas Natural,4
-CFE,CTG Tecnologico,26,Nuevo Leon,Turbogas,25.6135084,-100.271488,1974,Diesel,4
-CFE,CTG Universidad,24,Nuevo Leon,Turbogas,25.6984501,-100.318529,1970,Gas Natural,4
-CFE,CTG Cancun,102,Quintana Roo,Turbogas,21.13443,-86.831449,1974,Diesel,6
-CFE,CTG Chankanaab,53,Quintana Roo,Turbogas,20.4741404,-86.95713,1992,Diesel,6
-CFE,CTG Nizuc,88,Quintana Roo,Turbogas,21.0698512,-86.845937,1980,Diesel,6
-CFE,CTG Xul-Ha,39.7,Quintana Roo,Turbogas,18.5445512,-88.466537,1980,Diesel,6
-CFE,CTG Culiacan,30,Sinaloa,Turbogas,24.817023,-107.418298,1990,Diesel,3
-CFE,CTG Caborca,42,Sonora,Turbogas,30.7112912,-112.207492,1980,Diesel,3
-CFE,CTG Merida II,30,Yucatan,Turbogas,20.9273171,-89.686912,1981,Diesel,6
-CFE,CTG Nachi-Cocom,30,Yucatan,Turbogas,20.9822985,-89.592781,1987,Diesel,6
+CFE,CT Carbon II,1400,Coahuila,Coal,28.4682379,-100.7029,1993,Carbon,4
+CFE,CT Jose Lopez Portillo (Rio Escondido),1285,Coahuila,Coal,28.4844162,-100.692266,1982,Carbon,4
+CFE,CT Plutarco Elias Calles (Petacalco),2778.4,Guerrero,Coal,17.981411,-102.1229,1993,Carbon,2
+CFE,CC Presidente Jurez (Rosarito),743,Baja California,Combined Cycle,32.3684945,-117.084442,1963,Gas Natural,3
+PI,Mexicali,489,Baja California,Combined Cycle,32.6009142,-115.659276,2003,Gas Natural,5
+PI,Campeche,252.4,Campeche,Combined Cycle,17.9406683,-91.73477,2003,Gas Natural,5
+CFE,CC Chihuahua II (El Encino),619.4,Chihuahua,Combined Cycle,28.4470027,-105.922675,2001,Gas Natural,4
+CFE,CC Samalayuca II,522,Chihuahua,Combined Cycle,31.3302947,-106.486312,1998,Gas Natural,4
+PI,Norte II,433,Chihuahua,Combined Cycle,28.4402827,-105.918964,2013,Gas Natural,5
+PI,Chihuahua III,259,Chihuahua,Combined Cycle,31.3331032,-106.490956,2003,Gas Natural,5
+PI,Saltillo,247.5,Coahuila,Combined Cycle,25.59471,-100.90652,2001,Gas Natural,5
+CFE,CC Manzanillo I (Gral Manuel alvarez Moreno),1454,Colima,Combined Cycle,19.0257806,-104.319422,2013,Gas Natural,2
+CFE,CC Gomez Palacio,240,Durango,Combined Cycle,25.5944954,-103.47463,1976,Gas Natural,4
+PI,La Laguna II,498,Durango,Combined Cycle,25.6020413,-103.474385,2005,Gas Natural,5
+CFE,Norte Durango (La Trinidad),450,Durango,Combined Cycle,24.229667,-104.482172,2010,Gas Natural,5
+CFE,CC Valle de Mexico (Paquete II),549,Estado de Mexico,Combined Cycle,19.6167593,-98.976099,1963,Gas Natural,1
+PI,CC Bajio,495,Guanajuato,Combined Cycle,21.24513,-100.610426,,Gas Natural,5
+CFE,CC Francisco Perez Rios (Tula),489,Hidalgo,Combined Cycle,20.0596515,-99.277541,1975,Gas Natural,1
+CFE,CC Huinala I,378,Nuevo Leon,Combined Cycle,25.7201712,-100.10166,1981,Gas Natural,4
+CFE,CC Huinala II,471.2,Nuevo Leon,Combined Cycle,25.719078,-100.102553,1981,Gas Natural,4
+PI,Monterrey III (Dulces Nombres),449,Nuevo Leon,Combined Cycle,25.7177018,-100.093091,2002,Gas Natural,5
+CFE,CC San Lorenzo Potencia,382.1,Puebla,Combined Cycle,19.1203463,-98.243689,2009,Gas Natural,1
+CFE,CC El Sauz,591,Queretaro,Combined Cycle,20.4579153,-100.118472,1981,Gas Natural,1
+PI,Iberdrola Energia Tamazunchale,1135,San Luis Potosí,Combined Cycle,21.311286,-98.759108,2007,Gas Natural,5
+CFE,CC Agua Prieta II,409,Sonora,Combined Cycle,31.2636905,-109.592661,2016,Gas Natural,3
+PI,CC Hermosillo,250,Sonora,Combined Cycle,29.0405563,-110.836059,1998,Gas Natural,3
+PI,Naco Nogales,258,Sonora,Combined Cycle,31.2246505,-109.609806,2003,Gas Natural,5
+PI,Altamira II,495,Tamaulipas,Combined Cycle,22.497778,-97.901667,2002,Gas Natural,5
+PI,Altamira III y IV,1036,Tamaulipas,Combined Cycle,22.4955237,-97.902453,2003,Gas Natural,5
+PI,Altamira V,1121,Tamaulipas,Combined Cycle,22.4973288,-97.906104,2007,Gas Natural,5
+CFE,CC Pdte. Emilio Portes Gil (Rio Bravo),211,Tamaulipas,Combined Cycle,25.9799543,-98.06616,1982,Gas Natural,4
+PI,Central Rio Bravo (Anahuac),495,Tamaulipas,Combined Cycle,25.7990558,-97.783729,2002,Gas Natural,5
+PI,Central Rio Bravo III,495,Tamaulipas,Combined Cycle,25.799288,-97.782358,2004,Gas Natural,5
+PI,Central Rio Bravo IV,500,Tamaulipas,Combined Cycle,25.797699,-97.782726,2005,Gas Natural,5
+CFE,CC Dos Bocas,452,Veracruz,Combined Cycle,19.0831283,-96.146498,1975,Gas Natural,6
+PI,Central Tuxpan II,495,Veracruz,Combined Cycle,20.8425309,-97.245424,2001,Gas Natural,5
+PI,Central Tuxpan III y IV,983,Veracruz,Combined Cycle,20.8383508,-97.254321,2003,Gas Natural,5
+PI,Central Tuxpan V,495,Veracruz,Combined Cycle,20.8453699,-97.248723,2006,Gas Natural,5
+PI,AES Merida III,484,Yucatán,Combined Cycle,20.9337395,-89.69801,2000,Gas Natural,5
+PI,Compañia de Generacion Valladolid,525,Yucatán,Combined Cycle,20.6921858,-88.265954,2006,Gas Natural,5
+CFE,CT Felipe Carrillo Puerto (Valladolid),220,Yucatán,Combined Cycle,20.6985305,-88.267012,1992,Gas Natural,6
+CFE,CCI Baja California Sur I,26,Baja California Sur,Internal Combustion,24.1978262,-110.257911,2005,Diesel,3
+CFE,CCI Gral. Agustin Olachea Aviles (Pto San Carlos),104.1,Baja California Sur,Internal Combustion,24.8152208,-112.093062,1991,Diesel,3
+CFE,CCI Guerrero Negro,22,Baja California Sur,Internal Combustion,27.6417326,-113.415308,2004,Diesel,3
+CFE,CCI Santa Rosalia,5,Baja California Sur,Internal Combustion,27.3530047,-112.271038,1974,Diesel,3
+CFE,CCI Hol-Box,3.2,Quintana Roo,Internal Combustion,21.5201389,-87.37642,1985,Diesel,6
+CFE,La Venta,1,Oaxaca,Wind,16.5801421,-94.816653,1994,Viento,6
+PI,La Venta III,102.9,Oaxaca,Wind,16.5761308,-94.736216,2012,Viento,5
+PI,Oaxaca I,102,Oaxaca,Wind,16.5681348,-94.72616,2012,Viento,5
+PI,Oaxaca II,102,Oaxaca,Wind,16.5709119,-94.788961,2012,Viento,5
+PI,Oaxaca III,102,Oaxaca,Wind,16.5473236,-94.829665,2012,Viento,5
+PI,Oaxaca IV,102,Oaxaca,Wind,16.5709119,-94.788961,2012,Viento,5
+PI,Sureste I (La Mata),102,Oaxaca,Wind,16.6136801,-95.005156,2016,,5
+CFE,Yuumil ik,1.5,Quintana Roo,Wind,20.9763952,-86.862365,2011,Viento,6
+CFE,Cerro Prieto,5,Baja California,Photovoltaics,32.4008961,-115.237533,2012,Sol,3
+CFE,Santa Rosalia,1,Baja California Sur,Photovoltaics,27.3637056,-112.916468,2012,Sol,3
+CFE,CG Cerro Prieto,570,Baja California,Geothermal,32.4136095,-115.245095,1973,Calor Subterraneo,3
+CFE,CG Tres Virgenes,10,Baja California Sur,Geothermal,27.5061057,-112.55991,2001,Calor Subterraneo,3
+CFE,CG Los Azufres,225,Michoacan,Geothermal,19.7915879,-100.662277,1982,Calor Subterraneo,2
+CFE,CG Humeros,69,Puebla,Geothermal,19.6726316,-97.455836,1991,Calor Subterraneo,6
+CFE,Bombana,5.2,Chiapas,Hydro,17.011192,-93.028972,1961,Agua,6
+CFE,Central angel Albino Corzo (Peñitas),420,Chiapas,Hydro,17.4542911,-93.464399,1987,Agua,6
+CFE,Central Belisario Dominguez (Angostura),900,Chiapas,Hydro,16.404444,-92.775,1976,Agua,6
+CFE,Central Malpaso,1080,Chiapas,Hydro,17.1805892,-93.597029,1969,Agua,6
+CFE,Central Manuel Moreno Torres (Chicoasen),2400,Chiapas,Hydro,16.9448343,-93.097849,1981,Agua,6
+CFE,Jose Cecilio del Valle,21,Chiapas,Hydro,15.0232568,-92.22769,1967,Agua,6
+CFE,Schpoina,2.2,Chiapas,Hydro,16.3144717,-92.427925,1953,Agua,6
+CFE,Boquilla,25,Chihuahua,Hydro,27.544722,-105.414167,1916,Agua,3
+CFE,Colina,3,Chihuahua,Hydro,27.57507,-105.38248,1996,Agua,3
+CFE,La Amistad,66,Coahuila,Hydro,29.450278,-101.057778,1987,Agua,4
+CFE,Santa Barbara (S.H. Miguel Aleman),22.52,Estado de Mexico,Hydro,19.1978001,-100.282289,1955,Agua,1
+CFE,Tingambato (S.H. Miguel Aleman),42,Estado de Mexico,Hydro,19.081745,-100.406155,1955,Agua,1
+PI,"Generadora Fenix, S. A. P. I. de C.V. Alameda",7,Estado de México,Hydro,18.845156,-99.461384,1923,Agua,
+CFE,Ambrosio Figueroa (La Venta),30,Guerrero,Hydro,17.1173009,-99.56272,1965,Agua,1
+CFE,Central Carlos Ramirez Ulloa (El Caracol),600,Guerrero,Hydro,17.953029,-99.99205,1986,Agua,1
+CFE,Colotilpa,8,Guerrero,Hydro,17.4092418,-99.162252,1910,Agua,1
+CFE,Central Fernando Hiriart Balderrama (Zimapan),292,Hidalgo,Hydro,20.8480551,-99.459806,1996,Agua,1
+CFE,Central La Yesca,750,Jalisco,Hydro,21.1922051,-104.086741,2014,Agua,2
+CFE,Colimilla,51.2,Jalisco,Hydro,20.7009461,-103.242194,1950,Agua,2
+CFE,Luis M. Rojas (intermedia),5.3,Jalisco,Hydro,20.7056245,-103.265393,1963,Agua,2
+CFE,Gral. Manuel M. Dieguez (Santa Rosa),70,Jalisco,Hydro,20.9080017,-103.706203,1964,Agua,2
+CFE,Puente Grande,9,Jalisco,Hydro,20.5774976,-103.145746,1945,Agua,2
+CFE,Valentin Gomez Farias (Agua Prieta),240,Jalisco,Hydro,20.7859635,-103.325056,1993,Agua,2
+CFE,Botello,18,Michoacan,Hydro,19.9798124,-101.734582,1910,Agua,2
+CFE,Central El Infiernillo,1200,Michoacan,Hydro,18.2812246,-101.901375,1965,Agua,1
+CFE,Central La Villita,320,Michoacan,Hydro,18.0456955,-102.182454,1973,Agua,1
+CFE,Cobano,60,Michoacan,Hydro,19.1662119,-102.011732,1955,Agua,2
+CFE,Cupatizio,80,Michoacan,Hydro,19.2687545,-102.079901,1962,Agua,2
+CFE,Platanal,12.6,Michoacan,Hydro,19.932471,-102.254832,1954,Agua,2
+CFE,San Pedro Poruas,2.6,Michoacan,Hydro,19.4142111,-101.248548,1958,Agua,2
+CFE,Tirio,1.1,Michoacan,Hydro,19.53015,-101.2531,2005,Agua,2
+CFE,Zumpimito,8.4,Michoacan,Hydro,19.3602644,-102.069454,1944,Agua,2
+PI,"Generadora Fenix, S. A. P. I. de C.V. Lerma ",73.5,Michoacán,Hydro,19.9823014,-100.252506,1930,Agua,
+CFE,Central Aguamilpa Solidaridad,960,Nayarit,Hydro,21.8399,-104.802905,1994,Agua,2
+CFE,Central Leonardo Rodriguez Alcaine (El Cajon),750,Nayarit,Hydro,21.4293515,-104.454058,2007,Agua,2
+CFE,Jumatan,2.2,Nayarit,Hydro,21.6468876,-105.033051,1941,Agua,2
+CFE,Central Temascal y Ampliacion Temascal,354,Oaxaca,Hydro,18.2335897,-96.409422,1959,Agua,6
+CFE,Tamazulapan,2.5,Oaxaca,Hydro,17.692783,-97.61968,1962,Agua,6
+CFE,Central Mazatepec,220,Puebla,Hydro,20.0144626,-97.40644,1962,Agua,6
+CFE,Central Portezuelos I y II ,4.1,Puebla,Hydro,18.9192977,-98.373167,1964,Agua,1
+PI,"Generadora Fenix, S. A. P. I. de C.V. Necaxa",16,Puebla,Hydro,20.2166201,-98.002804,1905,Agua,
+PI,"Generadora Fenix, S. A. P. I. de C.V. Patla",15,Puebla,Hydro,20.2392117,-97.891506,1954,Agua,
+PI,"Generadora Fenix, S. A. P. I. de C.V. Tepexic",15,Puebla,Hydro,20.21005,-97.948345,1923,Agua,
+CFE,Camilo Arriaga (El Salto),18,San Luis Potosi,Hydro,22.588129,-99.38359,1966,Agua,6
+CFE,Electroquimica,1.4,San Luis Potosí,Hydro,22.588129,-99.35,1952,Agua,6
+CFE,Bacurato,92,Sinaloa,Hydro,25.855717,-107.910361,1987,Agua,3
+CFE,Central 27 de Septiembre (El Fuerte),59.4,Sinaloa,Hydro,26.5072953,-108.575108,1960,Agua,3
+CFE,Central Luis Donaldo Colosio (Huites),422,Sinaloa,Hydro,26.8437651,-108.367947,1996,Agua,3
+CFE,Humaya,90,Sinaloa,Hydro,25.099861,-107.387781,1976,Agua,3
+CFE,Prof. Raul J. Marsal Cordova (El comedero),100,Sinaloa,Hydro,24.5692557,-106.80966,1991,Agua,3
+CFE,Gral. Salvador Alvarado (Sanalona),14,Sinaloa,Hydro,24.8156421,-107.149413,1963,Agua,3
+CFE,Central Pdte Plutarco Elias Calles (El Novillo),135,Sonora,Hydro,28.9766171,-109.64003,1964,Agua,3
+CFE,Mocuzari,9.6,Sonora,Hydro,27.225131,-109.106769,1959,Agua,3
+CFE,Oviachic,19.2,Sonora,Hydro,27.821343,-109.897978,1957,Agua,3
+CFE,Falcon,31.5,Tamaulipas,Hydro,26.558369,-99.1694,1954,Agua,4
+CFE,Chilapan,26,Veracruz,Hydro,18.4712477,-95.15763,1960,Agua,6
+CFE,Encanto,10,Veracruz,Hydro,19.9837823,-97.175802,1951,Agua,6
+CFE,Ixtaczoquitlan,1.6,Veracruz,Hydro,18.8422661,-97.062678,1905,Agua,6
+CFE,Minas,15,Veracruz,Hydro,19.6863469,-97.147146,1951,Agua,6
+CFE,Texolo,1.6,Veracruz,Hydro,19.4019312,-96.992439,1951,Agua,6
+CFE,Tuxpango,36,Veracruz,Hydro,18.8365213,-97.033879,1914,Agua,6
+CFE,CN Laguna Verde,1608,Veracruz,Nuclear,19.7207374,-96.406982,1990,Uranio,6
+CFE,CT Presidente Juarez (Rosarito),320,Baja California,Thermal,32.3686749,-117.068382,1964,Gas Natural,3
+CFE,CT Punta Prieta II,113,Baja California Sur,Thermal,24.223326,-110.309295,1977,Combustoleo y Diesel,3
+CFE,CT Lerma,112.5,Campeche,Thermal,19.7947765,-90.612771,1976,Combustoleo,6
+CFE,CT Gral. Francisco Villa,300,Chihuahua,Thermal,28.1679986,-105.442412,1980,Combustoleo,4
+CFE,CT Benito Juarez (Samalayuca),316,Chihuahua,Thermal,31.331805,-106.482595,1984,Gas Natural,4
+CFE,CC Manzanillo II (Gral Manuel alvarez Moreno),1300,Colima,Thermal,19.0227687,-104.319629,1982,Combustoleo,2
+CFE,CT Guadalupe Victoria (Lerdo),320,Durango,Thermal,25.4968008,-103.568932,1991,Combustoleo,4
+CFE,CT Valle de Mexico (Paquete I),450,Estado de Mexico,Thermal,19.6167523,-98.977501,1963,Gas Natural,1
+CFE,CT Salamanca,550,Guanajuato,Thermal,20.5691282,-101.170968,1977,Gas Natural,1
+CFE,CT Francisco Perez Rios (Tula),1606,Hidalgo,Thermal,20.0613245,-99.276715,1975,Gas Natural,1
+CFE,CT Villa de Reyes,700,San Luis Potosi,Thermal,21.8319464,-100.934019,1986,Combustoleo,4
+CFE,CT Jose Aceves Pozos (Mazatlan II),616,Sinaloa,Thermal,23.190984,-106.353251,1976,Gas Natural,3
+CFE,CT Juan de Dios Batiz Paredes (Topolobampo),320,Sinaloa,Thermal,25.6091019,-109.050545,1995,Combustoleo,3
+CFE,CT Carlos Rodriguez Rivero (Guaymas II),484,Sonora,Thermal,27.9367643,-110.865883,1973,Combustoleo,3
+CFE,CT Puerto Libertad,632,Sonora,Thermal,29.9090145,-112.695408,1985,Gas Natural,3
+CFE,CT Pdte. Emilio Portes Gil (Rio Bravo),300,Tamaulipas,Thermal,25.980709,-98.063196,1982,Gas Natural,4
+CFE,CT Altamira,500,Tamaulipas,Thermal,22.4346506,-98.007405,1976,Combustoleo,4
+CFE,CT Poza Rica,230,Veracruz,Thermal,20.5251183,-97.491936,1963,Gas Natural,6
+CFE,CT Presidente Adolfo Lopez Mateos (Tuxpan),2100,Veracruz,Thermal,21.0177873,-97.334111,1991,Combustoleo,6
+CFE,CT Felipe Carrillo Puerto (Valladolid),75,Yucatan,Thermal,20.698569,-88.26383,1992,"Combustoleo, Diesel",6
+CFE,CT Merida II,168,Yucatan,Thermal,20.9271143,-89.686321,1981,Combustoleo,6
+CFE,CTG Cipres,27.43,Baja California,Gas,31.7757639,-116.586815,1981,Diesel,3
+CFE,CTG Mexicali,62,Baja California,Gas,32.6058947,-115.461108,1974,Gas Natural,3
+CFE,CTG Tijuana,345,Baja California,Gas,32.3719905,-117.067377,1982,Gas Natural,3
+CFE,CTG Guerrero Negro II,14,Baja California Sur,Gas,27.64171,-113.4132409,2004,,3
+CFE,CTG Ciudad Constitucion,33,Baja California Sur,Gas,25.0214571,-111.666895,1984,Diesel,3
+CFE,CTG Los Cabos,85,Baja California Sur,Gas,22.9727611,-110.021155,1976,Diesel,3
+CFE,Ciudad del Carmen,47,Campeche,Gas,18.6577482,-91.794985,1992,Diesel,6
+CFE,CTG Parque (TG Juarez),59,Chihuahua,Gas,31.7024747,-106.403816,1977,Diesel,4
+CFE,CTG Aragon,32,Ciudad de Mexico,Gas,19.4611322,-99.09807,,,1
+CFE,CTG Coapa,32,Ciudad de Mexico,Gas,19.2706124,-99.127009,,,1
+CFE,CTG Iztapalapa,32,Ciudad de Mexico,Gas,19.33373,-99.07417,,,1
+CFE,CTG Magdalena,32,Ciudad de Mexico,Gas,19.3813891,-99.094321,,,1
+CFE,CTG Santa Cruz,32,Ciudad de Mexico,Gas,19.3662755,-99.059296,,,1
+CFE,CTG Vallejo,32,Ciudad de Mexico,Gas,19.5162157,-99.174162,,,1
+CFE,CTG Nonoalco,106,Ciudad de Mexico,Gas,19.4504932,-99.149691,1974,Gas Natural,1
+CFE,CTG Chavez,28,Coahuila,Gas,25.7724818,-103.284971,1971,Gas,4
+CFE,CTG Monclova,48,Coahuila,Gas,26.8719811,-101.426273,,,4
+CFE,CTG La Laguna,56,Durango,Gas,25.551157,-103.471633,1974,Gas Natural,4
+CFE,CTG Coyotepec,64,Estado de Mexico,Gas,19.7614631,-99.217916,2007,Gas Natural,1
+CFE,CTG Atenco,32,Estado de Mexico,Gas,19.2795504,-99.570673,,,1
+CFE,CTG Cuautitlan,32,Estado de Mexico,Gas,19.6817861,-99.186784,,,1
+CFE,CTG Ecatepec,32,Estado de Mexico,Gas,19.6109486,-99.058246,,,1
+CFE,CTG Remedios,32,Estado de Mexico,Gas,19.4872714,-99.25154,,,1
+CFE,CTG Victoria,32,Estado de Mexico,Gas,19.6363847,-99.189977,,,1
+CFE,CTG Villa de las Flores,32,Estado de Mexico,Gas,19.6722058,-99.078205,,,1
+CFE,CC Salamanca,393,Guanajuato,Gas,20.5789785,-101.165403,2013,Gas Natural,1
+CFE,CTG Fundidora,12,Nuevo Leon,Gas,25.6821307,-100.27797,1971,Gas Natural,4
+CFE,CTG Huinala,150,Nuevo Leon,Gas,25.721856,-100.102751,1981,Gas Natural,4
+CFE,CTG Leona,24,Nuevo Leon,Gas,25.6688544,-100.415388,1972,Gas Natural,4
+CFE,CTG Tecnologico,26,Nuevo Leon,Gas,25.6135084,-100.271488,1974,Diesel,4
+CFE,CTG Universidad,24,Nuevo Leon,Gas,25.6984501,-100.318529,1970,Gas Natural,4
+CFE,CTG Cancun,102,Quintana Roo,Gas,21.13443,-86.831449,1974,Diesel,6
+CFE,CTG Chankanaab,53,Quintana Roo,Gas,20.4741404,-86.95713,1992,Diesel,6
+CFE,CTG Nizuc,88,Quintana Roo,Gas,21.0698512,-86.845937,1980,Diesel,6
+CFE,CTG Xul-Ha,39.7,Quintana Roo,Gas,18.5445512,-88.466537,1980,Diesel,6
+CFE,CTG Culiacan,30,Sinaloa,Gas,24.817023,-107.418298,1990,Diesel,3
+CFE,CTG Caborca,42,Sonora,Gas,30.7112912,-112.207492,1980,Diesel,3
+CFE,CTG Merida II,30,Yucatan,Gas,20.9273171,-89.686912,1981,Diesel,6
+CFE,CTG Nachi-Cocom,30,Yucatan,Gas,20.9822985,-89.592781,1987,Diesel,6
