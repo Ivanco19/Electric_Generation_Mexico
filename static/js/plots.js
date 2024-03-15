@@ -1,5 +1,5 @@
 // Read CSV file
-var rawDataURL = '../Datasets/electric_generation_cenace_2020-2023.csv'
+var rawDataURL = 'Datasets/electric_generation_cenace_2020-2023.csv'
 // var rawDataURL = 'https://ivanco19.github.io/Electric_Generation_Mexico/Datasets/electric_generation_cenace_2020-2023.csv'
 
 // Global variable to store all original data
